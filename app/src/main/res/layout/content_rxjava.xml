@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.burnie.zhihu.RxJava2DemoActivity"
+    tools:showIn="@layout/activity_rxjava">
+
+    <Button
+        android:id="@+id/common"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="common" />
+
+    <Button
+        android:id="@+id/bt_emitter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="emitter0" />
+
+    <Button
+        android:id="@+id/map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="map" />
+
+    <Button
+        android:id="@+id/flatmap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="flatmap" />
+
+    <Button
+        android:id="@+id/zip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="zip" />
+
+    <Button
+        android:id="@+id/sample"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sample" />
+</LinearLayout>

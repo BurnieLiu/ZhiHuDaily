@@ -1,0 +1,49 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppThemeBase" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="listPreferredItemPaddingLeft">44dp</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme" parent="AppThemeBase">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="AppTheme.TranslucentStatus" />
+
+    <style name="AppTheme.Toolbar" parent="Widget.AppCompat.ActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="android:theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+    </style>
+
+    <style name="AppTheme.Toolbar.Light">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:theme">@style/ThemeOverlay.AppCompat.Light</item>
+    </style>
+
+    <!--CollapsingToolbarLayout展开时标题文字样式-->
+    <style name="ExpandedTitleTextAppearance" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textSize">23dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+</resources>
